@@ -1,5 +1,25 @@
-.navegador li{
-    padding: 3px;
+body{
+    background-color:#4B27A1;
+}
+
+h1{
+    background-color: #2D1761;
+    padding: 4px;
+    font-size: "8";
+}
+
+a{
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:focus{
+    background:black;
+}
+
+.navegador li{ 
+    padding: 5px;
     display: inline;
 }
 
