@@ -3,12 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tienda virtual</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Tienda online</h1>
-    <h2>Descripción</h2>
-    <p>La pagina sera una tienda de ropa online. El usuario podra ver todos los articulos, sus precios, registrarse y añadir al carrito de compra</p>
+    <h1 style="text-align: center;">Tienda online</h1>
+    <nav> 
+        <ul class="navegador">
+            <li><a href="#">Hombre</a></li>
+            <li><a href="#">Mujer</a></li>
+        </ul>
+    </nav>
     
+    <h2>Descripción</h2>
+    <p>La pagina sera una tienda de ropa online. El usuario podra ver todos los articulos, sus precios, registrarse y añadir al carrito de compra</p><br>
+
+   
+    
+    <form action="">
+        <h3 style="text-align: center;">Registrarse</h3>
+        <ul class="formulario">
+            <li>
+                <label for="name">nombre</label>
+                <input type="text">
+            </li>
+            <li>
+                <label for="name">apellido  </label>
+                <input type="text">
+            </li>
+            <li>
+                <label for="email">email</label>
+                <input type="email">
+            </li>
+            <li>
+                <label for="name">celular</label>
+                <input type="tel">
+            </li>
+            <li>
+                <label for="">documento</label>
+                <select name="" id="">
+                    <option value="">Cedula de ciudadania</option>
+                    <option value="">N.I.T</option>
+                </select>
+            </li>
+            <li>
+                <label for="">Genero</label>
+                <select name="">
+                    <option value="">Hombre</option>
+                    <option value="">Mujer</option>
+                </select>
+            </li>
+            <li>
+                <input type="submit" value="enviar">
+            </li>
+        </ul>
+    </form>
 </body>
 </html>
