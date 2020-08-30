@@ -1,11 +1,23 @@
 body{
    background-color: #4B27A1;
+   padding: 0;
+   height: 0;
+}
+
+header{
+    text-align: center;
+}
+
+header nav li{
+    padding: 10px;
+    
 }
 
 h1{
     background-color: #2D1761;
-    padding: 4px;
+    padding: 1em;
     font-size: "8";
+    height: 50px;
 }
 
 a{
@@ -19,13 +31,10 @@ a:focus{
 }
 
 .navegador li{ 
-    padding: 5px;
+    
     display: inline;
 }
 
-nav {
-    text-align: center;
-}
 
 form {
     margin: 0 auto;
@@ -33,6 +42,7 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
   border-radius: 1em;
+  float: center;
 }
 
 .formulario{
@@ -47,6 +57,19 @@ label{
     text-align: left;
 }
 
-li{
+.formulario li{
     padding: 3px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #2D1761;
+    height: 50px;
+    padding: 50px;
+}
+
+footer li{
+    padding: 10px;
+    display: inline;
 }
