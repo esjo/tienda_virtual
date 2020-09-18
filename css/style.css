@@ -9,10 +9,7 @@ body{
    color:#fff; 
 }
 
-.container{
-    top: 200px;
-    position: relative;
-}
+
 
 header{
     background-color: #2D1761;
@@ -55,8 +52,16 @@ a:focus{
     display: inline;
 }
 
+#hombre {
+    width: 40%;
+    padding: 100px 0px 100px 0px;
 
+}
 
+#mujer {
+    width: 40%;
+    padding: 100px 0px 100px 0px;
+}
 
 form{
     text-align: center;
