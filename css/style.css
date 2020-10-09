@@ -1,3 +1,9 @@
+nav{
+    height: auto;
+    background-color: #361b75
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -26,6 +32,7 @@ header nav ul li{
 
 nav ul li a{
     padding: 4px;
+    display: inline-block;
 }
 
 .navegador li{ 
@@ -46,14 +53,16 @@ a{
 
 
 #hombre {
-    width: 40%;
-    padding: 100px 0px 100px 0px;
+    width: 80%;
+    flex-direction: row;
+    padding: 0px 0px 0px 0px;
 
 }
 
 #mujer {
-    width: 40%;
-    padding: 100px 0px 100px 0px;
+    width: 80%;
+    flex-direction: row;
+    padding: 0px 0px 0px 0px;
 }
 
 form{
@@ -72,7 +81,7 @@ form input{
     padding: 10px;
     position: relative;
     top: 40px;
-    background-color: #0EF052;
+    background-color: #ad0079;
     color: black;
     display: inline-block;
     border-radius: 1em;

@@ -4,48 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-        <form action="">
-            <ul class="formulario">
-                <li><h3>Registrarse</h3></li>
-                <li>
-                    <label for="name">Nombre</label><br>
-                    <input type="text"placeholder="Escribe tu nombre">
-                </li>
-                <li>
-                    <label for="name">Apellido  </label><br>
-                    <input type="text"placeholder="Escribe tu apellido">
-                </li>
-                <li>
-                    <label for="email">Email</label><br>
-                    <input type="email"placeholder="Escriba su email">
-                </li>
-                <li>
-                    <label for="name">Celular</label><br>
-                    <input type="tel"placeholder="Escriba su celular">
-                </li>
-                <li>
-                    <label for="">Cedula de ciudadania</label><br>
-                    <input type="text" placeholder="Escriba su documento">
-                </li>
-                <li>
-                    
-                </li>
-                <li>
-                    <label for="">Genero</label>
-                    <select name="">
-                        <option value="">Hombre</option>
-                        <option value="">Mujer</option>
-                        <option value="">Otro</option>
-                    </select>
-                </li>
-                <br>
-                <li>
-                    <input type="submit" value="Enviar" style="width: 150px;  height: 30px;">
-                </li>
-            </ul>
-        </form>
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 </body>
 </html>
