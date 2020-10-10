@@ -8,6 +8,10 @@ body{
     font-family: sans-serif;
 }
 
+.jumbotron{
+    font-family: 'Fredoka One', cursive;
+}
+
 #hombreFondo {
     background-image: url(../imagenes/fondo_hombre.jpg);
     color:#000000;
