@@ -1,0 +1,33 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color:#4B27A1;
+    font-family: sans-serif;
+}
+
+#hombreFondo {
+    background-image: url(../imagenes/fondo_hombre.jpg);
+    color:#000000;
+    font-family: 'Fredoka One', cursive;
+}
+
+#mujerFondo {
+    background-image: url(../imagenes/fondo_mujer.jpg);
+    background-color: rgb(0, 0, 0);
+    font-family: 'Fredoka One', cursive;
+}
+
+.card{
+    background-color:grey;
+}
+
+.pie_pagina{
+    color: white;
+}
+
+
+
+
