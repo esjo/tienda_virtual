@@ -3,49 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>pagina</title>
+
+    <!--BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!--BOOTSTRAP CSS-->
+
+    <link rel="stylesheet" href="styles/styles.css">
+
 </head>
-<body>
-        <form action="">
-            <ul class="formulario">
-                <li><h3>Registrarse</h3></li>
-                <li>
-                    <label for="name">Nombre</label><br>
-                    <input type="text"placeholder="Escribe tu nombre">
-                </li>
-                <li>
-                    <label for="name">Apellido  </label><br>
-                    <input type="text"placeholder="Escribe tu apellido">
-                </li>
-                <li>
-                    <label for="email">Email</label><br>
-                    <input type="email"placeholder="Escriba su email">
-                </li>
-                <li>
-                    <label for="name">Celular</label><br>
-                    <input type="tel"placeholder="Escriba su celular">
-                </li>
-                <li>
-                    <label for="">Cedula de ciudadania</label><br>
-                    <input type="text" placeholder="Escriba su documento">
-                </li>
-                <li>
-                    
-                </li>
-                <li>
-                    <label for="">Genero</label>
-                    <select name="">
-                        <option value="">Hombre</option>
-                        <option value="">Mujer</option>
-                        <option value="">Otro</option>
-                    </select>
-                </li>
-                <br>
-                <li>
-                    <input type="submit" value="Enviar" style="width: 150px;  height: 30px;">
-                </li>
-            </ul>
-        </form>
+<body id="fondoF">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #2D1761;">
+        <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mr-auto" href="index.html">Tienda online</a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link" href="registro.html"><svg width="27px" height="27px" viewBox="0 0 16 16" class="bi bi-file-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M12 1H4a1 1 0 0 0-1 1v10.755S4 11 8 11s5 1.755 5 1.755V2a1 1 0 0 0-1-1zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"></path>
+                <path fill-rule="evenodd" d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+              </svg></a>
+            <a class="nav-link" href="carrito.html"><svg width="27px" height="27px" viewBox="0 0 16 16" class="bi bi-bag" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z"></path>
+              </svg></a>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
+              </form>
+          </div>
+        </div>
+    </nav>
+
+    <!--Formulario-->
+    
+    <div class="container py-5 text-center">
+      <form class="formulario bg-dark text-white border rounded">
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault01">Nombre</label>
+            <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault02">Apellido</label>
+            <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="">Celular</label>
+            <input type="text" class="form-control" id="validationDefault03" value="celular" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="">Cedula de ciudadania</label>
+            <input type="text" class="form-control" id="validationDefault04" value="documento" required >
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault03">Email</label>
+            <input type="email" class="form-control" id="validationDefault04" value="Correo" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault04">genero</label>
+            <select class="custom-select" id="validationDefault05" required>
+              <option selected disabled value=""></option>
+              <option>Hombre</option>
+              <option>Mujer</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              Acepta terminos y condiciones
+            </label>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Registrarse</button>
+      </form>
+    </div>
+
+
+ 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+<!--
+<form action="">
+    <ul class="formulario">
+        <li><h3>Registrarse</h3></li>
+        <li>
+            <label for="name">Nombre</label><br>
+            <input type="text"placeholder="Escribe tu nombre">
+        </li>
+        <li>
+            <label for="name">Apellido  </label><br>
+            <input type="text"placeholder="Escribe tu apellido">
+        </li>
+        <li>
+            <label for="email">Email</label><br>
+            <input type="email"placeholder="Escriba su email">
+        </li>
+        <li>
+            <label for="name">Celular</label><br>
+            <input type="tel"placeholder="Escriba su celular">
+        </li>
+        <li>
+            <label for="">Cedula de ciudadania</label><br>
+            <input type="text" placeholder="Escriba su documento">
+        </li>
+        <li>
+            
+        </li>
+        <li>
+            <label for="">Genero</label>
+            <select name="">
+                <option value="">Hombre</option>
+                <option value="">Mujer</option>
+                <option value="">Otro</option>
+            </select>
+        </li>
+        <br>
+        <li>
+            <input type="submit" value="Enviar" style="width: 150px;  height: 30px;">
+        </li>
+    </ul>
+</form>
+
+-->

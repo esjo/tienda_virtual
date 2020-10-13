@@ -36,4 +36,15 @@ body{
     padding-left: 23px;
 }
 
+#fondoF{
+    background: url(../imagenes/fondo_formulario.jpg); 
+   background-size: cover;
+
+}
+
+.formulario{
+    padding: 40px;
+}
+
+
 
