@@ -38,12 +38,15 @@ body{
 
 #fondoF{
     background: url(../imagenes/fondo_formulario.jpg); 
-   background-size: cover;
-
 }
 
 .formulario{
     padding: 40px;
+}
+
+.formulario_r{
+    padding: 50px;
+    margin: auto;
 }
 
 
