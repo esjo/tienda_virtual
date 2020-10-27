@@ -48,34 +48,39 @@
     </div>
   </nav>
 
-  <ul class="nav justify-content-center bg-dark flex-column flex-md-row nav-pills">
-    <li class="nav-item">
-      <a class="nav-link" href="buzo_h.html">buzos y chaquetas</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="jean.html">Jeans</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="camiseta_h.html">Camisetas</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="camisa_h.html">Camisas</a>
-    </li><li class="nav-item">
-      <a class="nav-link" href="polo.html">Polos</a>
-    </li>
-  </ul>
 
-  
+  <ul class="nav justify-content-center bg-dark flex-column flex-md-row nav-pills">
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+  </div>
+  <li class="nav-item">
+    <a class="nav-link" href="buzo_m.html">buzos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="jean_m.html">Jeans</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="camiseta_m.html">Camisetas</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="blusa.html">Blusas</a>
+  </li><li class="nav-item">
+    <a class="nav-link" href="vestido.html">Vestidos y faldas</a>
+  </li>
+</ul>
 
     <div class="container py-5 text-center">
-        <div class="jumbotron" id="pag_h">
-            <h1 class="display-4 ">Hombre</h1>
-            <p class="lead ">La mejor ropa para <br> Los mejores hombre</p>
+        <div class="jumbotron" id="pag_m">
+            <h1 class="display-4">Mujer</h1>
+            <p class="lead">La mejor ropa para <br> Mujeres</p>
         </div>
 
         <div class="card-deck">
           <div class="card">
-            <img src="imagenes/ropa_h/buzo.webp" class="card-img-top" style="height: 350px;" alt="...">
+            <img src="imagenes/ropa_m/buzo.webp" class="card-img-top" alt="..." style="height:350px;">
             <div class="card-body">
               <h5 class="card-title">Buzo</h5>
               <p class="card-text">40000</p>
@@ -85,7 +90,7 @@
             </div>
           </div>
           <div class="card">
-            <img src="imagenes/ropa_h/jean.webp" class="card-img-top" style="height: 350px;"  alt="...">
+            <img src="imagenes/ropa_m/jean.jpg" class="card-img-top" style="height: 350px;"  alt="...">
             <div class="card-body">
               <h5 class="card-title">Jean</h5>
               <p class="card-text">40000</p>
@@ -95,9 +100,9 @@
             </div>
           </div>
           <div class="card">
-            <img src="imagenes/ropa_h/chaqueta.jpg" class="card-img-top" style="height: 350px;" alt="...">
+            <img src="imagenes/ropa_m/camiseta.jpg  " class="card-img-top" style="height: 350px;" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Chaqueta</h5>
+              <h5 class="card-title">Camiseta</h5>
               <p class="card-text">40000</p>
             </div>
             <div class="card-footer">
@@ -108,9 +113,9 @@
 
         <div class="card-deck py-5">
           <div class="card">
-            <img src="imagenes/ropa_h/camiseta.webp" class="card-img-top" alt="...">
+            <img src="imagenes/ropa_m/blusa.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Camiseta</h5>
+              <h5 class="card-title">Blusa</h5>
               <p class="card-text">40000</p>
             </div>
             <div class="card-footer">
@@ -118,9 +123,9 @@
             </div>
           </div>
           <div class="card">
-            <img src="imagenes/ropa_h/polo.jpg" class="card-img-top" alt="...">
+            <img src="imagenes/ropa_m/falda.webp" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Polo</h5>
+              <h5 class="card-title">Falda</h5>
               <p class="card-text">40000</p>
             </div>
             <div class="card-footer">
@@ -128,9 +133,9 @@
             </div>
           </div>
           <div class="card">
-            <img src="imagenes/ropa_h/camisa.jpg" class="card-img-top" alt="...">
+            <img src="imagenes/ropa_m/vestido.webp" class="card-img-top" style="height: 450px;" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Camisa</h5>
+              <h5 class="card-title">Vestido</h5>
               <p class="card-text">40000</p>
             </div>
             <div class="card-footer">
@@ -138,10 +143,11 @@
             </div>
           </div>
         </div>
+         
         
+       
     </div>
 
-   
 
 
     <!--Footer-->
@@ -161,7 +167,7 @@
 
           <div class="col-md-4">
             <h5>Ayuda</h5>
-            <p>¿Necesitas ayuda?<br>Escribenos al correo electronico: jdrr394@gmail.com</p>          
+            <p>¿Necesitas ayuda?<br>Escribenos al correo electronico: jdrr394@gmail.com</p>
           </div>
         </div>
       </div>
@@ -178,6 +184,7 @@
  
       </div>
     </footer>
+ 
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -185,71 +192,3 @@
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
-
-<!--
-  <div class="row text-center justify-content-center" id="producto">
-            <div class="col-md-4 col-sm-4 py-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/ropa_h/buzo.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">buzo verde</h5>
-                      <p class="card-text">40000</p>
-                      <a href="#" class="btn btn-primary">añadir al carrito</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4 col-sm-4 py-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/ropa_h/jean.webp" class="card-img-top" style="height: 350px;"  alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Jean</h5>
-                      <p class="card-text">40000</p>
-                      <a href="#" class="btn btn-primary">añadir al carrito</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4 py-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/ropa_h/chaqueta.jpg" class="card-img-top" style="height: 350px;" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Chaqueta</h5>
-                      <p class="card-text">40000</p>
-                      <a href="#" class="btn btn-primary">añadir al carrito</a>
-                    </div>
-                  </div>
-            </div>
-        </div>
-
-        <div class="row py-5 text-center" id="producto">
-            <div class="col-md-4 py-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/ropa_h/camiseta.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Camiseta</h5>
-                      <p class="card-text">40000</p>
-                      <a href="#" class="btn btn-primary">añadir al carrito</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4 py-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/ropa_h/polo.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Polo gris</h5>
-                      <p class="card-text">40000</p>
-                      <a href="#" class="btn btn-primary">añadir al carrito</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4 py-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="imagenes/ropa_h/camisa.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Camisa de cuadros</h5>
-                      <p class="card-text">40000</p>
-                      <a href="#" class="btn btn-primary">añadir al carrito</a>
-                    </div>
-                  </div>
-            </div>
-        </div>
--->
