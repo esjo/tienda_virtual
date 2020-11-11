@@ -63,7 +63,7 @@ document.getElementById("camisa").onmouseout = function (){
 //Polo hombre
 
 document.getElementById("polo").onmouseover = function (){
-    var camiseta = document.getElementById("polo").src = "../imagenes/ropa_h/polo5.jpg";
+    var camiseta = document.getElementById("polo").src = "../imagenes/ropa_h/Polo5.jpg";
 
 }
 
