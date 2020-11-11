@@ -3,7 +3,7 @@
 document.getElementById("hombre").onmouseover = function (){
     var hombre = document.getElementById("hombre").style.width="100%";
     var hombre = document.getElementById("hombre").style.height="100%";
-    console.log("hecho");
+    
 }
 
 //tamaño normal
@@ -11,7 +11,7 @@ document.getElementById("hombre").onmouseout = function (){
     var hombre = document.getElementById("hombre").style.width="500px";
     var hombre = document.getElementById("hombre").style.height="100%";
 
-    console.log("fuera");
+    
 }
 
 
@@ -20,7 +20,7 @@ document.getElementById("mujer").onmouseover = function (){
     var hombre = document.getElementById("mujer").style.width="100%";
     var hombre = document.getElementById("hombre").style.height="100%";
 
-    console.log("hecho");
+   
 }
 
 //tamaño normal
@@ -78,13 +78,12 @@ document.getElementById("polo").onmouseout = function (){
 
 document.getElementById("buzo").onmouseover = function (){
     var camiseta = document.getElementById("buzo").src = "../imagenes/ropa_h/chaqueta2.webp";
-    console.log("bien");
-
+    
 }
 
 document.getElementById("buzo").onmouseout = function (){
     var camiseta = document.getElementById("buzo").src = "../imagenes/buzo_hombre.jpg";
-    console.log("bien");
+    
 
 }
 
